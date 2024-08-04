@@ -1,12 +1,9 @@
-import PriceCard from "@/components/generic/PriceCard"
-import {
-  ContainerScroll,
-  HeroParallax,
-  InfiniteMovingCard,
-  LampComponent,
-} from "@/components/global"
+import { PriceCard } from "@/components/cards"
+import { InfiniteMovingCard, LampComponent } from "@/components/animations"
+import { Navbar } from "@/components/layout"
+import { ContainerScroll, HeroParallax } from "@/components/scroll-effects"
 import { Button } from "@/components/ui/button"
-import { clients, products, pricingData } from "@/lib/constant"
+import { clients, products, pricingData } from "@/stores"
 
 /**
  * Renders the landing page for the application
@@ -16,6 +13,8 @@ import { clients, products, pricingData } from "@/lib/constant"
 export default function Home() {
   return (
     <main>
+      <Navbar />
+
       <section className="h-screen w-full  bg-neutral-950 rounded-md  !overflow-visible relative flex flex-col items-center  antialiased">
         <div className="absolute inset-0  h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_35%,#223_100%)]"></div>
 

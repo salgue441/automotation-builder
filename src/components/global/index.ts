@@ -1,6 +1,0 @@
-export { Navbar } from "./navbar"
-export { ContainerScroll } from "./container-scroll"
-export { InfiniteMovingCard } from "./infinite-moving-card"
-export { HeroParallax } from "./hero-parallax"
-export { LampComponent } from "./lamp"
-export { CardContainer, CardBody, CardItem } from "./3d-card"

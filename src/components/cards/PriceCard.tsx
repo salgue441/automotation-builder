@@ -1,6 +1,6 @@
 import React from "react"
 import { CheckIcon } from "lucide-react"
-import { CardContainer, CardBody, CardItem } from "@/components/global"
+import { CardContainer, CardBody, CardItem } from "./3d-card"
 
 type PriceCardProps = {
   title: string
@@ -20,7 +20,7 @@ type PriceCardProps = {
  * @param isHighlighted?: boolean - The highlight status of the card
  * @returns React.FC<PriceCardProps> - The price card component
  */
-const PriceCard: React.FC<PriceCardProps> = ({
+export const PriceCard: React.FC<PriceCardProps> = ({
   title,
   price,
   description,
@@ -75,5 +75,3 @@ const PriceCard: React.FC<PriceCardProps> = ({
     </CardContainer>
   )
 }
-
-export default PriceCard

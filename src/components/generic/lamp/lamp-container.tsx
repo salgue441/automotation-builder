@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import { cn } from "@/lib/utils"
-import { SparklesCore } from "../../global/sparkles"
+import { SparklesCore } from "../../animations/sparkles"
 import React from "react"
 
 type LampContainerProps = {

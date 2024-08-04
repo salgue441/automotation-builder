@@ -1,0 +1,7 @@
+export { default as Category } from "./category"
+export { default as Logs } from "./clipboard"
+export { default as Templates } from "./cloud_download"
+export { default as Home } from "./home"
+export { default as Payment } from "./payment"
+export { default as Settings } from "./settings"
+export { default as Workflows } from "./workflows"
